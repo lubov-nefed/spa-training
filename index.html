@@ -3,41 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Spa training</title>
+  <title>Spa Php</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container header__container">
-        <h1><a href="/" class="header__link">Header</a></h1>
-        <nav class="nav header__nav">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="/About" class="nav__link internal-link">About</a></li>
-            <li class="nav__item"><a href="/Blog" class="nav__link internal-link">Blog</a></li>
-            <li class="nav__item"><a href="/Pricing" class="nav__link internal-link">Pricing</a></li>
-            <li class="nav__item"><a href="/Support" class="nav__link internal-link">Support</a></li>
-        </ul>
-        </nav>
+      <div class="header__content">
+        <h1 class="header__title" id="title">
+          <a href="/Main" class="link_internal">Main</a>
+        </h1>
       </div>
     </header>
-  
     <main class="main">
-      <div class="container main__container">
-        <h3 class="main__heading">Main</h3>
-        <div id="app">
-          <h4 class="app__heading" style="background-color: #38b1eb; color: #ffff;">Homepage</h4>
-        </div>
+      <div class="main__content" id="body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iste</p>
+        <a href="/Articles/1" class="link_internal">Article 1</a>
+        <a href="/Articles/2" class="link_internal">Article 2</a>
+        <a href="/Articles/3" class="link_internal">Article 3</a>
+        <a href="/Articles/4" class="link_internal">Article 4</a>
       </div>
     </main>
-  
-    <footer class="footer">
-      <div class="container footer__container">
-        <h2>Footer</h2>
-      </div>
-    </footer>
   </div>
-  
+  <script src="main.js"></script>
 </body>
 </html>
