@@ -31,6 +31,7 @@ function SendRequest(query, link) {
     if (xhr.readyState != 4) return;
     loaded = true;
     if (xhr.status == 200) { 
+      console.log('200');
       console.log(JSON.parse(xhr.responseText));
      /*  GetData(JSON.parse(xhr.responseText), link) *///2
     }
