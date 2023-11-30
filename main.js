@@ -26,7 +26,7 @@ function SendRequest(query, link) {
   console.log('executed');
   console.log(link);
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "spa/core.php" + query, true);
+  xhr.open("GET", "core.php" + query, true);
   xhr.onreadystatechange = function() {
     if (xhr.readyState != 4) return;
     loaded = true;
