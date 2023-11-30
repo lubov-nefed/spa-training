@@ -24,9 +24,9 @@ function GetData(response, link) {
 
 function SendRequest(query, link) {
   console.log('executed');
-  console.log(link);
+  console.log('link ' + link);
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "core.php" + query, true);
+  xhr.open("GET", "/core.php" + query, true);
   xhr.onreadystatechange = function() {
     if (xhr.readyState != 4) return;
     loaded = true;
